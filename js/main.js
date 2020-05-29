@@ -1,3 +1,4 @@
+//Example to show useing Arrow function on this keyword
 //we can't use the same value of this in two functions
 // function Cars(){
 //     this.carCounter = 0;
@@ -23,11 +24,11 @@
 
 //second solution using [arrow function]
 
-function Cars(){
-    this.carCounter = 0;
-    setInterval(()=>{
-        this.carCounter++;
-        console.log(this.carCounter);
-    }, 1000)
-}
-let newCar = new Cars();
+// function Cars(){
+//     this.carCounter = 0;
+//     setInterval(()=>{
+//         this.carCounter++;
+//         console.log(this.carCounter);
+//     }, 1000)
+// }
+// let newCar = new Cars();
