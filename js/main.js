@@ -72,3 +72,26 @@
 //     return index;
 // }
 // console.log(sumAll(5, 10, 20));
+
+
+//using new string methods in ES6
+//startswith ==> string.startsWith(search string, position = 0)
+//endswith ====> strin.endsWith(search string, end position= string.length)
+
+// let name = "Ibrahim Mohammed Elsaber";
+//     console.log(name.startsWith('Mo',8 ));
+//     console.log(name.endsWith('ed', 16));
+
+//using new string methods in es6
+//includes ==> string.includes(search string, postion = 0)
+//repeat ====> string.repeat(counter);
+
+// let Products = {
+//     productOne : 'Iphone',
+//     productTwo : 'Samsung',
+//     productThree : 'Sony'
+// }
+// console.log(Products.productOne);
+// console.log(Products.productOne.includes('Iphone'));
+// console.log(Products.productThree.includes('Iphone'));
+// console.log(Products.productOne.repeat(2));
