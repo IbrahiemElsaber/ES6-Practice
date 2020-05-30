@@ -45,7 +45,7 @@
 
 //clone array to another without using spread operator
 // let arrayOne = [1, 2, 3];
-    // arrayTwo = arrayOne;
+// arrayTwo = arrayOne;
 
 // arrayOne.push('t');
 // console.log(arrayOne);
@@ -95,3 +95,23 @@
 // console.log(Products.productOne.includes('Iphone'));
 // console.log(Products.productThree.includes('Iphone'));
 // console.log(Products.productOne.repeat(2));
+
+//Destructuring (object - array)
+// let Person = {
+//     name: 'Ibrahim',
+//     age: 30,
+//     city: 'Mansoura',
+//     job: 'Software Engineer',
+//     languages: {
+//         Arabic: '100%',
+//         English: '60%',
+//         France: '30%',
+//         // Indian:'25%'
+//     }
+// };
+
+// const { name: personName, age: personAge, city: personCity, height: personHeight = '194', languages: {Arabic, English, France, Indian = '20%'} } = Person;
+// console.log(`My name is: ${personName}, i'm ${personAge} years old, i live in ${personCity},my tall is ${personHeight}, and my Arabic language is ${Indian}`);
+// //just nested object in object destructuring 
+// const {Arabic: myArabic, English: myEnglish,France: myFrance}= Person.languages;
+// console.log(`My Arabic language is: ${myArabic}, my English language is: ${myEnglish}, and my France language is: ${myFrance}`);
