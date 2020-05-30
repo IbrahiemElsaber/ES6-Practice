@@ -104,3 +104,19 @@
 //     console.log(`I have knowledge in Js frameworks ike ${Vuejs}, ${Reactjs}, ${Angularjs}.`);
 // }
 // showUserInfo(user);
+//using destructuring object on dynamic variables
+// const name = {
+//     firstName: 'ibrahim',
+//     secondName:'Elsaber'
+// };
+// const myName = 'firstName';
+// const { [myName]: myFirstName, secondName: mySecondName} = name;
+// console.log(`my first name is ${myFirstName}, and my second name is ${mySecondName}`);
+
+//using object destructuring on declared variable
+// let name;
+// const user ={
+//     name: 'ibrahim'
+// };
+// ({name: firstName}= user);
+// console.log(`My name is ${firstName}`);
