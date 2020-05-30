@@ -51,7 +51,15 @@
 // console.log(arrayOne);
 // console.log(arrayTwo);
 //using spread operator
+// let arrayOne = [1, 2, 3];
 // let arrayTwo = [...arrayOne];
 // arrayTwo.push('S');
 // console.log(arrayOne);
 // console.log(arrayTwo);
+//using spred operator to define minimum number in array
+
+// let numbers = [1, 2, -5, 66, -90, 1000];
+
+// console.log(Math.min(numbers));  // without spread operator
+// console.log(Math.min(...numbers));
+// console.log(Math.max(...numbers));
