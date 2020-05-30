@@ -63,3 +63,12 @@
 // console.log(Math.min(numbers));  // without spread operator
 // console.log(Math.min(...numbers));
 // console.log(Math.max(...numbers));
+
+//using rest paramters
+
+// function sumAll(...myParams){
+//     let index = 0;
+//     for(let myParam of myParams) index+=myParam;
+//     return index;
+// }
+// console.log(sumAll(5, 10, 20));
