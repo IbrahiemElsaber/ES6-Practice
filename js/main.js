@@ -96,7 +96,7 @@
 // console.log(Products.productThree.includes('Iphone'));
 // console.log(Products.productOne.repeat(2));
 
-//Destructuring (object - array)
+//Destructuring (object)
 // let Person = {
 //     name: 'Ibrahim',
 //     age: 30,
@@ -115,3 +115,13 @@
 // //just nested object in object destructuring 
 // const {Arabic: myArabic, English: myEnglish,France: myFrance}= Person.languages;
 // console.log(`My Arabic language is: ${myArabic}, my English language is: ${myEnglish}, and my France language is: ${myFrance}`);
+
+//Destructureing (Array)
+
+// const cars = ['Ford', 'BMW', 'Mercides', 'Toyota'];
+// // const [typeOne, typeTwo, typeThree, typeFour, typeFive = 'default'] = cars;
+// // console.log(`Cars types are ${typeOne}, ${typeTwo}, ${typeThree} ${typeFour}, ${typeFive}`);
+// //Esaping elements
+// const [typeOne, , typeThree, , typeFive = 'default'] = cars;
+// console.log(`Cars types are ${typeOne}, ${typeThree}, ${typeFive}`);
+
