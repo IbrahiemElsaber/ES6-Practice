@@ -32,3 +32,12 @@
 //     }, 1000)
 // }
 // let newCar = new Cars();
+
+// //using spread operator
+
+// let oldNumbers = [1, 2, 3],
+//     newNumbers = [4, 5, 6],
+//     otherNumbers = [10, 20, 30];
+//     numbers = oldNumbers.concat(newNumbers);
+
+// console.log(...oldNumbers.concat(newNumbers).concat(otherNumbers));
